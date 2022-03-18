@@ -5,8 +5,8 @@ function FuncComp({ old,color }){
     return (
     <>
          <h1>Welcome to ReactJS from FC</h1>
-         <p>Age : {old}</p>
-         <p>Color : {color.toUpperCase()}</p>
+         {/* <p>Age : {old}</p> */}
+         {/* <p>Color : {color.toUpperCase()}</p> */}
     
     </>
     )
