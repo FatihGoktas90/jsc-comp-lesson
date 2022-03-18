@@ -12,8 +12,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <p>Age:{age}</p>
-        <ClassComp age={age}/>
-        <FuncComp age={age}/>
+        <ClassComp old={age} car="BMW"/>
+        <FuncComp old={age+age} color="yellow"/>
         </p>
         
         <a
